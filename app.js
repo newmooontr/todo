@@ -14,7 +14,7 @@ add.addEventListener("click", () => {
         <i class="bi bi-calendar-check"></i>
         <button class="dcc btn btn-danger">
         <i class="bi bi-calendar-x-fill"></i>
-        </button> ${input.value}
+        </button> <span class="todo-text">${input.value}</span>
       </li>`;
     doList.push(input.value);
     input.value = "";

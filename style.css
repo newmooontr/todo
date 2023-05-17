@@ -6,7 +6,7 @@
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(./img/getty_514914078_200013332000928076_167571.jpeg);
+  background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);url(./img/getty_514914078_200013332000928076_167571.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -37,20 +37,20 @@ h1 {
 }
 
 .btn1 {
-  width: 60%;
+  width: 40%;
   display: flex;
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 0.5rem;
   justify-content: space-around;
 }
 
 #todo {
-  width: 80%;
+  width: 50%;
   margin-right: 10px;
   border-color: #fff;
   border-radius: 10px;
   outline: none;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 
 #add {
@@ -62,6 +62,7 @@ h1 {
   font-weight: bold;
   border-radius: 10px;
   border: none;
+  
 }
 #add:hover {
   opacity: 0.5;
@@ -76,6 +77,7 @@ h1 {
   font-weight: bold;
   border-radius: 10px;
   border: none;
+  
 }
 
 #delete:hover {
@@ -94,7 +96,7 @@ h1 {
 }
 
 ul li {
-  background-color: #eee;
+  background-color: #e4d3d3;
   color: rgb(41, 41, 41);
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -104,8 +106,15 @@ ul li {
   /* padding: 1rem; */
 }
 
+.dcc,.todo-text{
+  margin-left: 0.8rem;
+}
+
+
+
 @media screen and (max-width: 576px) {
   li p {
+    
     font-size: 0.8rem;
   }
 }
